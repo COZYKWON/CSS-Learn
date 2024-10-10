@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        @media (min-width: 0) and (max-width: 400px) {
+            body {
+                background-color: blue;
+            }
+        }
+        @media (min-width: 401px) and (max-width: 600px) {
+            body {
+                background-color: red;
+            }
+        }
+        @media (min-width: 601px) {
+            body {
+                background-color: yellow;
+            }
+        }
+        
+        /* 우선 순위
+        @media (max-width: 600px) {
+            body {
+                background-color: red;
+            }
+        }
+        @media (max-width: 400px) {
+            body {
+                background-color: yellow;
+            }
+        } */
+        
+        @media print {
+            h1 {font-size: 120px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>안녕하세요</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, odit id maiores fugiat voluptatem explicabo sint temporibus. Quidem asperiores libero, voluptates dicta excepturi est praesentium, placeat reprehenderit, culpa assumenda at.
+        At odit temporibus dignissimos quo assumenda suscipit debitis nobis ipsam velit. Rem unde laudantium fugiat ratione, amet ipsam asperiores numquam quod minima assumenda porro optio dolore delectus blanditiis? Deserunt, aut.
+        Quae voluptatem esse sed numquam blanditiis commodi possimus quas excepturi. Esse expedita deleniti tempore quam nulla eaque odio, laborum ratione! Dolorum, harum deserunt. Dolore atque impedit quisquam optio excepturi. Error?
+        Perferendis, voluptatem? Quisquam nisi officia at tenetur dignissimos earum obcaecati praesentium sed, provident nihil aperiam facilis quis tempora amet? Fuga ratione tempore tenetur non quod nostrum vel reiciendis at iste.
+        Officiis cumque esse ratione rem dignissimos laboriosam voluptatibus, recusandae error saepe voluptas, aspernatur molestiae accusamus quia! Nihil, nam eius. Repudiandae tempora iusto eius in illum eveniet. Sunt nemo voluptas doloremque?
+    </p>
+</body>
+</html>
